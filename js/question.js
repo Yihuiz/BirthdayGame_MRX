@@ -100,7 +100,7 @@ function showFeedback(message) {
 function showWinningMessage() {
     // Create a message container
     const message = document.createElement('div');
-    message.textContent = "Lucky You! You win a coupon from Dolo Group 🎉";
+    message.textContent = "Lucky You! You win a coupon from Magic Pass 🎉";
     message.style.position = 'fixed';
     message.style.top = '50%';
     message.style.left = '50%';
@@ -134,7 +134,7 @@ function showWinningMessage() {
         if (answeredQuestions === totalQuestions) {
             // Show the winning message
 		 showWinningMessage();
-           <!-- alert("Lucky You! You win a coupon from Dolo Group 🎉"); -->
+           <!-- alert("Lucky You! You win a coupon from Magic Pass 🎉"); -->
         }
     } else {
         alert("Please enter an answer before submitting!");
